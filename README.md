@@ -1,8 +1,6 @@
 <!-- @format -->
 
-# Discord Bot Website
-
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) and the components are taken from [`tailblocks.cc`](https://tailblocks.cc).
 
 ## Getting Started
 
