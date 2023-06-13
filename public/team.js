@@ -8,7 +8,7 @@ module.exports = {
             role: "Developer",
             socials: {
                 github: "https://github.com/Dqrshan",
-                insta: "https://instagra.com/bruh.darshan"
+                insta: "https://instagram.com/bruh.darshan"
             }
         },
         {
@@ -17,7 +17,7 @@ module.exports = {
             role: "Supporter",
             socials: {
                 github: "https://github.com/Zapd0s",
-                insta: "https://instagra.com/_z4pd0s",
+                insta: "https://instagram.com/_z4pd0s",
                 discord: "https://discord.com/users/838285943365435453"
             }
         },
@@ -27,7 +27,7 @@ module.exports = {
             role: "Supporter",
             socials: {
                 github: "https://github.com/AlmightyNan",
-                insta: "https://instagra.com/a1mightynan",
+                insta: "https://instagram.com/a1mightynan",
                 discord: "https://discord.com/users/990534176937771018"
             }
         }
