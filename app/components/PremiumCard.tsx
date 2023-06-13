@@ -39,7 +39,7 @@ function PremiumCard({ plan, price, benefits }: Props) {
                         {b}
                     </p>
                 ))}
-                <button className="flex items-center mt-2 text-white bg-slate-500 border-2 border-slate-500 py-2 px-4 w-full focus:outline-none hover:bg-inherit rounded ease">
+                <button className="flex items-center mt-auto text-white bg-slate-500 border-2 border-slate-500 py-2 px-4 w-full focus:outline-none hover:bg-inherit rounded ease">
                     Purchase
                     <svg
                         fill="none"

@@ -42,8 +42,8 @@ function PremiumPopularCard({ plan, price, benefits }: Props) {
                         {b}
                     </p>
                 ))}
-                <button className="flex items-center mt-4 text-slate-700 hover:text-slate-300 bg-sky-300 border-2 border-sky-300 ease py-2 px-4 w-full focus:outline-none hover:bg-inherit rounded">
-                    Button
+                <button className="flex items-center mt-auto text-slate-700 hover:text-slate-300 bg-sky-300 border-2 border-sky-300 ease py-2 px-4 w-full focus:outline-none hover:bg-inherit rounded">
+                    Purchase
                     <svg
                         fill="none"
                         stroke="currentColor"
