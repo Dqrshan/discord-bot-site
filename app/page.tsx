@@ -1,37 +1,37 @@
 /** @format */
 
-import Features from "@/components/Features";
-import Footer from "@/components/Footer";
-import Header from "@/components/Header";
-import Hero from "@/components/Hero";
-import Premium from "@/components/Premium";
-import Stats from "@/components/Stats";
-import Team from "@/components/Team";
+import Features from "@/app/components/Features";
+import Footer from "@/app/components/Footer";
+import Header from "@/app/components/Header";
+import Hero from "@/app/components/Hero";
+import Premium from "@/app/components/Premium";
+import Stats from "@/app/components/Stats";
+import Team from "@/app/components/Team";
 
 export default function Home() {
     return (
-        <div>
-            <section id="header" className="">
+        <>
+            <div className="h-screen bg-gradient-to-tr from-slate-700 to-slate-800 overflow-scroll z-0">
                 <Header />
-            </section>
-            <section id="hero">
-                <Hero />
-            </section>
-            <section id="stats">
-                <Stats />
-            </section>
-            <section id="features">
-                <Features />
-            </section>
-            <section id="premium">
-                <Premium />
-            </section>
-            <section id="team">
-                <Team />
-            </section>
-            <section id="footer">
-                <Footer />
-            </section>
-        </div>
+                <section id="hero" className="shadow-lg">
+                    <Hero />
+                </section>
+                <section id="stats" className="shadow-lg">
+                    <Stats />
+                </section>
+                <section id="features" className="shadow-lg">
+                    <Features />
+                </section>
+                <section id="premium" className="shadow-lg">
+                    <Premium />
+                </section>
+                <section id="team" className="shadow-lg">
+                    <Team />
+                </section>
+                <section id="footer">
+                    <Footer />
+                </section>
+            </div>
+        </>
     );
 }
