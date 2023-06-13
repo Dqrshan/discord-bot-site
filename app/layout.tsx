@@ -21,15 +21,15 @@ export const metadata: Metadata = {
     openGraph: {
         title: data.title,
         description: data.description,
-        images: data.image,
+        images: [data.image],
         type: "website",
-        siteName: data.title,
+        siteName: "Lorenz",
         url: "https://dash-bot.vercel.app/"
     },
     twitter: {
         title: data.title,
         description: data.description,
-        images: data.image,
+        images: [data.image],
         card: "summary",
         creator: "Lorenz"
     }
