@@ -4,31 +4,30 @@ module.exports = {
     team: [
         {
             name: "Lorenz",
-            image: "https://cdn.discordapp.com/avatars/838620835282812969/938ec22b85bac89488cd3cdd64349a1b.png",
+            image: "https://media.discordapp.net/attachments/929953693833527307/1118188557786415164/profile.png?width=563&height=563",
             role: "Developer",
             socials: {
-                github: "https://github.com/Dqrshan",
-                insta: "https://instagram.com/bruh.darshan"
+                github: "https://github.com/",
+                insta: "https://instagram.com/"
             }
         },
         {
             name: "Zapdos",
-            image: "https://cdn.discordapp.com/avatars/838285943365435453/c587b5d41482d5747cbe5a15650ae815.png",
-            role: "Supporter",
+            image: "https://media.discordapp.net/attachments/929953693833527307/1118188557786415164/profile.png?width=563&height=563",
+            role: "Designer",
             socials: {
-                github: "https://github.com/Zapd0s",
-                insta: "https://instagram.com/_z4pd0s",
-                discord: "https://discord.com/users/838285943365435453"
+                github: "https://github.com/",
+                discord: "https://discord.com/"
             }
         },
         {
             name: "AlmightyNan",
-            image: "https://cdn.discordapp.com/avatars/990534176937771018/f909d3fdb4bb31991d10ef0115f6f78b.png",
-            role: "Supporter",
+            image: "https://media.discordapp.net/attachments/929953693833527307/1118188557786415164/profile.png?width=563&height=563",
+            role: "Sponsor",
             socials: {
-                github: "https://github.com/AlmightyNan",
-                insta: "https://instagram.com/a1mightynan",
-                discord: "https://discord.com/users/990534176937771018"
+                github: "https://github.com/",
+                insta: "https://instagram.com/",
+                discord: "https://discord.com/"
             }
         }
     ]
