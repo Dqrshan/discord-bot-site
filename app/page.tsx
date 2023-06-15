@@ -11,26 +11,18 @@ import Team from "@/app/components/Team";
 export default function Home() {
     return (
         <>
-            <div className="h-screen bg-gradient-to-tr from-slate-700 to-slate-800 overflow-scroll z-0">
+            <div className="h-screen bg-gradient-to-tr from-slate-700 to-slate-800 overflow-x-hidden overflow-scroll z-0">
                 <Header />
-                <section id="hero" className="shadow-lg">
-                    <Hero />
-                </section>
-                <section id="stats" className="shadow-lg">
-                    <Stats />
-                </section>
-                <section id="features" className="shadow-lg">
+                <section className="divide-y-2 divide-slate-600">
+                    <section>
+                        <Hero />
+                        <Stats />
+                    </section>
                     <Features />
-                </section>
-                <section id="premium" className="shadow-lg">
                     <Premium />
-                </section>
-                <section id="team" className="shadow-lg">
                     <Team />
                 </section>
-                <section id="footer">
-                    <Footer />
-                </section>
+                <Footer />
             </div>
         </>
     );
