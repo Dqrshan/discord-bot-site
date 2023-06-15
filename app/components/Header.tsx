@@ -53,7 +53,7 @@ function Header({}: Props) {
 
             {/* mobile menu */}
             <Menu as="div">
-                <div className="container mx-auto md:hidden flex flex-wrap p-3 flex-row items-center justify-evenly">
+                <div className="container mx-auto md:hidden flex flex-wrap p-3 flex-row items-center justify-between">
                     <a className="flex order-first lg:w-1/5 title-font font-medium items-center text-white lg:items-center lg:justify-center">
                         <img
                             src="https://static.vecteezy.com/system/resources/previews/006/892/625/non_2x/discord-logo-icon-editorial-free-vector.jpg"
@@ -77,7 +77,7 @@ function Header({}: Props) {
                     leaveFrom="transform scale-100 opacity-100"
                     leaveTo="transform scale-95 opacity-0"
                 >
-                    <Menu.Items className="absolute z-20 gap-y-2 right-0 mt-2 mr-2 origin-top-right rounded-lg bg-white shadow-lg focus:outline-none bg-gradient-to-br from-slate-500 to-slate-400">
+                    <Menu.Items className="absolute z-20 gap-y-2 right-0 mt-2 mr-2 origin-top-right rounded-lg shadow-lg focus:outline-none bg-gradient-to-br from-slate-500 to-slate-400">
                         <div className="flex flex-col text-left p-2">
                             <Menu.Item>
                                 <Link
